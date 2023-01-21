@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49E37756-44EA-892F-28C4-469B1A5559FF" name="Poslovnica">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:50:15 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_p" id="572135DA-EBD4-ECB3-7525-BE25A4690B50">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:50:29 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_adr" id="C4FB07E6-E01E-4997-3CF5-CA12878AA0D7">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 10:00:00 UTC</createdTime>
+<generatorID>70407532-02C4-AA13-B69E-C54A8DA80541</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<referedAttribute>C12FEB59-4C8B-6C0D-6326-4679CDA76F2F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mbr_z" id="E4844A87-16B3-F48B-71FD-5150527B34FF">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 10:01:32 UTC</createdTime>
+<generatorID>60F4068C-F296-8A54-0685-377909E569EC</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<referedAttribute>8D714EC6-2145-1A25-B584-8BB5DFD2F2C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73D27F99-65AE-8FD1-6903-B7D6914AF2DD" name="Poslovnica PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:50:41 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>572135DA-EBD4-ECB3-7525-BE25A4690B50</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

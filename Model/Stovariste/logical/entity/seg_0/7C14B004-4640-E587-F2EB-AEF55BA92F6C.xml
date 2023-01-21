@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C14B004-4640-E587-F2EB-AEF55BA92F6C" name="Stovariste">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:47:23 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pib_s" id="B932BBBB-8D55-1D64-338C-8D2EE79FE43B">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:47:29 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mbr_s" id="306456BE-3202-D28D-B782-9CCC97A69906">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:47:40 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naz_s" id="B2E98F4E-1E3C-5D43-C19C-B70074507080">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:47:47 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="brtel_s" id="AC4D680C-8FD1-9915-54ED-8B9FFBA59046">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:47:58 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_s" id="F4284F57-1190-B371-AAC6-0F47F89383FE">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:48:09 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_p" id="99192CBF-AA83-D030-6C7C-67212CD8B2F8">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:51:33 UTC</createdTime>
+<generatorID>C88CA2AD-6614-02BB-6E64-5DCED978F1DC</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<referedAttribute>572135DA-EBD4-ECB3-7525-BE25A4690B50</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9C34F4D-6685-8E7D-BFAD-6C3556844B3E" name="Stovariste PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:47:39 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B932BBBB-8D55-1D64-338C-8D2EE79FE43B</attributeRef>
+<attributeRef>306456BE-3202-D28D-B782-9CCC97A69906</attributeRef>
+<attributeRef>99192CBF-AA83-D030-6C7C-67212CD8B2F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

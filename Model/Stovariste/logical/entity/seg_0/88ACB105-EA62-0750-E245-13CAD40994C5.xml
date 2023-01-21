@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88ACB105-EA62-0750-E245-13CAD40994C5" name="Nabavka materijala">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:40:33 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_nm" id="541CF4BA-A369-C401-1CD7-E1E52FD0BAC0">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:40:56 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_r" id="FB807225-3291-31BB-2F21-B0CAD56D6FAD">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:47:09 UTC</createdTime>
+<generatorID>17B44738-B233-72B1-FEF2-C8067CB1CC37</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<referedAttribute>628AD0C7-0B3F-837E-305E-29FBEA0FF6BD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24CC09C2-58FD-97A7-0503-10BDDFE1FF5D" name="Nabavka materijala PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 09:41:08 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>541CF4BA-A369-C401-1CD7-E1E52FD0BAC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
