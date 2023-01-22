@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="219B1D66-3D3F-A50E-88B3-BC02144A2C0D" containerWithKeyObject="8951C579-DAAA-BA8F-F681-35A099AA8965" localFKIndex="6CF51A8B-67FB-8402-B3DE-C43F47340411" name="Prodaje_Menadzer_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>20F2528D-845B-9338-68E4-8EF61586D661</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<referredTableLongName>Menadzer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77227931-A0B4-C5EA-1FF5-9C7D1C864BA1</referredTableID>
+<keyObject>FEBFCC67-D762-C057-18F3-40E77D088437</keyObject>
+<referredKeyID>FEBFCC67-D762-C057-18F3-40E77D088437</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mbr_z</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

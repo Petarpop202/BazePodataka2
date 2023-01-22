@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF5B68E0-0BEF-E27B-CF17-1898FD136D77" name="Racun">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>C8CF9F1A-5AFE-15FF-DCB5-A6CE066281EB</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_r" id="42B58E67-C8A6-658C-8081-18D94C49C9F3">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>628AD0C7-0B3F-837E-305E-29FBEA0FF6BD</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_r" id="E4D99CA9-A227-FED0-E82F-E7142A84E9F9">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>194E0F26-B1FF-DC75-57F3-00CD224DF4BD</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena_r" id="9145737A-50AD-95E2-75A8-647EEDDD9788">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>2C3CF168-1693-F6CE-CD76-031508A2E9F7</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB770348-F9A5-EB0B-E19B-03EE96393920" name="Racun_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>6A286020-1DF4-7268-46C0-42212B315DEC</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42B58E67-C8A6-658C-8081-18D94C49C9F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

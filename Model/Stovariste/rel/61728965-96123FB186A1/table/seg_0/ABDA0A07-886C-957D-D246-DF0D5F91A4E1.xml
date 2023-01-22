@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABDA0A07-886C-957D-D246-DF0D5F91A4E1" name="Izdaje">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>DB9E6BA0-CE1A-7A2A-2F46-CC7D5CDE68EA</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Stovariste_pib_s" id="581A7CDE-F078-CC3A-DBC4-91AE9F1E3DB1">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>9C368FE0-FCA7-35D8-1A11-A73C497F1139</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B29AA05-59EA-12FC-F23A-DA971F60E6F2" referredColumn="785EF21D-667F-D8A6-C4C4-B473614B5C70"/>
+</associations>
+</Column>
+<Column name="Stovariste_mbr_s" id="206DD7FA-1FA1-BDDB-CB7A-43478A56172E">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>01496A58-7FF1-51E5-9393-D96A9E4405BA</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B29AA05-59EA-12FC-F23A-DA971F60E6F2" referredColumn="64FC2BDE-9C59-29A2-1882-5A7FF3629D14"/>
+</associations>
+</Column>
+<Column name="Fin_izvestaj_id_fi" id="14573F00-1851-3E03-BDAA-0BE174F11C81">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>2488FF22-51AC-4FD4-DB1D-C0C708C1FD94</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B4F0C77-9EA3-25AA-A7DA-461651F7A6EE" referredColumn="3E15409C-C00A-6D69-784E-3DE42416E759"/>
+</associations>
+</Column>
+<Column name="Izdaje_ID" id="E17BCA88-90F3-E98D-6F03-B6921B11C2C7">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0FB53BD3-2EA9-3162-3DA8-09990E03EDC8" name="Izdaje_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E17BCA88-90F3-E98D-6F03-B6921B11C2C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA5D214D-B830-1E69-393E-A2DE148CFB28" name="Izdaje_Stovariste_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>441A45B0-44E4-9529-00CC-C35E9CD6F21C</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="581A7CDE-F078-CC3A-DBC4-91AE9F1E3DB1"/>
+<colUsage columnID="206DD7FA-1FA1-BDDB-CB7A-43478A56172E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5060B35-FD4F-DE97-32BF-425DD2DF6896" name="Izdaje_Fin_izvestaj_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>3526C5B7-92F4-2432-5550-68EBD3C742BB</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14573F00-1851-3E03-BDAA-0BE174F11C81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

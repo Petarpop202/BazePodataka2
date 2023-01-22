@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12189303-5F37-EEA8-E851-8B72F0FC9053" containerWithKeyObject="5471DD83-1B2F-58B9-FAA0-019DE6801BC0" localFKIndex="E7A08A49-5B67-D53C-4914-FFB74B26B214" name="Relation_7_Gradj_matl_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:50 UTC</createdTime>
+<generatorID>0EED122C-D5B2-5EEB-AA0B-2974ECC5E245</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<referredTableLongName>Gradj_mat</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A73B1004-1D54-EE45-9528-2F1A96D9F9BA</referredTableID>
+<keyObject>742DB3C9-70E7-2207-54B9-6A8D31954D4C</keyObject>
+<referredKeyID>742DB3C9-70E7-2207-54B9-6A8D31954D4C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_gm</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

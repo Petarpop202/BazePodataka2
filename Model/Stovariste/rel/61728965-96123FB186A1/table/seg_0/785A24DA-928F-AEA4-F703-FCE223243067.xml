@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="785A24DA-928F-AEA4-F703-FCE223243067" name="Nabavka">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>88ACB105-EA62-0750-E245-13CAD40994C5</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<ordsAlias>nabavka_materijala</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nm" id="5D9E6949-F98E-4D58-D132-046B9F586A55">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>541CF4BA-A369-C401-1CD7-E1E52FD0BAC0</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Racun_id_r" id="93CB8D97-5C24-0C16-4670-990E5073C7FE">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>FB807225-3291-31BB-2F21-B0CAD56D6FAD</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E80CC7EB-2585-5E7C-F7B9-ED20CB0070A0" referredColumn="42B58E67-C8A6-658C-8081-18D94C49C9F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CA34732-A0F4-1765-7E11-8A1BC79586DE" name="Nabavka_m_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>24CC09C2-58FD-97A7-0503-10BDDFE1FF5D</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D9E6949-F98E-4D58-D132-046B9F586A55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CC8819C-840D-0B7E-578B-A304ECA4B561" name="Nabavka_materijala__IDX">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>17B44738-B233-72B1-FEF2-C8067CB1CC37</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="93CB8D97-5C24-0C16-4670-990E5073C7FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BC815BA-9848-1566-2615-9212246B5F1B" name="Nabavka_m_Racun_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>17B44738-B233-72B1-FEF2-C8067CB1CC37</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93CB8D97-5C24-0C16-4670-990E5073C7FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

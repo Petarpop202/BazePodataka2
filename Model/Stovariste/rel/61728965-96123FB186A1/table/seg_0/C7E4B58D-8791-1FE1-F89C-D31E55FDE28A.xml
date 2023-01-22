@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7E4B58D-8791-1FE1-F89C-D31E55FDE28A" name="Drzava">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>D0EA35C2-D0C2-EB69-8A24-837EECC4DCF8</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_d" id="B77E001F-E4AC-5AAB-7C2D-AA15426DDB21">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>EC35C1FC-948B-E5EE-9679-905B09FEA0C7</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naz_d" id="06DD8FC2-AAFE-5DC4-3C31-E79E1BBE9DC0">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>2F0A33C5-DD11-53E2-7E0A-E4AD06C84ECB</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poreska_ustanova_id_pu" id="B209163A-1585-6118-D1FD-557DA0224706">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>5C105D1E-F687-A76E-E336-D1345E7ABFD3</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4C19E62-052B-D01F-6C86-88314B73E093" name="Drzava_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>158B7DA1-25D6-A41C-4648-31F7D6C673C7</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B77E001F-E4AC-5AAB-7C2D-AA15426DDB21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAE7F035-8269-C60B-5BB7-5590D13CA0DB" name="Drzava__IDX">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8AB3F5F8-926B-1742-F862-7918C32266C7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B209163A-1585-6118-D1FD-557DA0224706"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

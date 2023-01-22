@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="039316C6-1443-2F71-B912-1F46CBC92F70" containerWithKeyObject="8951C579-DAAA-BA8F-F681-35A099AA8965" localFKIndex="909080A4-F2B2-CF02-AC7F-55841B3ABBBC" name="Prodaje_Gradj_mat_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>F94BFFB2-011B-0ED4-1692-5FEFD895DA99</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<referredTableLongName>Gradj_mat</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A73B1004-1D54-EE45-9528-2F1A96D9F9BA</referredTableID>
+<keyObject>742DB3C9-70E7-2207-54B9-6A8D31954D4C</keyObject>
+<referredKeyID>742DB3C9-70E7-2207-54B9-6A8D31954D4C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_gm</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

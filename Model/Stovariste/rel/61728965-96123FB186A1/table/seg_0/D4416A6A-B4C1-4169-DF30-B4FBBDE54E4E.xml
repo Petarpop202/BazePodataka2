@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4416A6A-B4C1-4169-DF30-B4FBBDE54E4E" name="Fizicko_lice">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>C88B5F28-85EB-6423-C091-855606434E67</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_k" id="56C4B2EE-DA6E-44B0-A0B2-2F8741792329">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>6D1A111F-2582-9225-4731-FCC1DE79DF87</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEDB3CD8-384D-7DF7-4C1B-79A5777278D4" referredColumn="B4EF1927-39E1-012B-A537-D390AAC6EB4B"/>
+</associations>
+</Column>
+<Column name="id_fl" id="07854A0B-185A-C99B-BE4C-D656D8B796F9">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>4D07C07C-B557-EBEE-97B4-2559EECA00C9</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_fl" id="AB4DEC32-9A8B-C1A8-F7B0-5D49ED9F7FE5">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>0ACA492F-2323-54C3-D9C1-CB58CA090FEC</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prez_fl" id="F4B6EFF9-0D47-C27A-13D2-11D4F8A7B9B9">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>E7CA61C9-5863-B492-759A-2DDE2785221D</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28A6DF87-E273-51DE-8227-172EADB92775" name="Fizicko_lice_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>2DF1B8B3-113F-DD43-C62A-4BDD9B5929B5</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56C4B2EE-DA6E-44B0-A0B2-2F8741792329"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D122DAD1-81DF-3F32-6B63-7FF32C24622D" name="Fizicko_lice_PKv1">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>E5E14FCA-28A7-BEE8-BEF8-F5FA9096CED6</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07854A0B-185A-C99B-BE4C-D656D8B796F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F916430-BD47-7F5F-A770-59EE08CEDD66" name="Fizicko_lice_Kupac_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>2806EFDE-890F-2741-AC40-EC8CD44DDC9E</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56C4B2EE-DA6E-44B0-A0B2-2F8741792329"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -40,20 +40,6 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_p" id="0E95A0EE-4F41-1A96-02F6-49942334DCBF">
-<createdBy>petar</createdBy>
-<createdTime>2023-01-21 10:00:05 UTC</createdTime>
-<generatorID>70407532-02C4-AA13-B69E-C54A8DA80541</generatorID>
-<ownerDesignName>Stovariste</ownerDesignName>
-<engineerTo>
-<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
-</engineerTo>
-<referedAttribute>572135DA-EBD4-ECB3-7525-BE25A4690B50</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D89D971B-A35E-7561-EDCE-11F3F7DB9C9B" name="Adresa PK">

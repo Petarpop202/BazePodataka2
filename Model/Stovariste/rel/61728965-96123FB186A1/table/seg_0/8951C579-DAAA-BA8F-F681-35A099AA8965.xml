@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8951C579-DAAA-BA8F-F681-35A099AA8965" name="Prodaje">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>AE357743-BA3D-9EC7-B028-D0C4861A6CEA</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ukupnacena_p" id="A3788516-703A-6E33-8623-E56518549CC9">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>E408D06B-100D-8496-9259-5D9E8000EF45</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gradj_mat_id_gm" id="F6924DF6-276F-F35E-1005-91DA38178E03">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>0740531E-8B35-0F5B-08DC-96B3DAB04299</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="039316C6-1443-2F71-B912-1F46CBC92F70" referredColumn="FA7F9ADA-7D5B-0732-2B08-E6E60AE95194"/>
+</associations>
+</Column>
+<Column name="Menadzer_mbr_z" id="275F998E-36C3-83A6-11D0-9FAEA41B45E3">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>9EA677B0-A7DA-49E4-EA72-C3BCD7F6EFB7</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="219B1D66-3D3F-A50E-88B3-BC02144A2C0D" referredColumn="2800BDFA-1877-E9D7-D244-2E8C2DC4D049"/>
+</associations>
+</Column>
+<Column name="Prodaje_ID" id="B8FE195D-A076-BB4A-FF2E-08CF64CE1335">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA3A41C1-5582-6ABA-90B0-BBDA112CE5DF" name="Prodaje_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B8FE195D-A076-BB4A-FF2E-08CF64CE1335"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="909080A4-F2B2-CF02-AC7F-55841B3ABBBC" name="Prodaje_Gradj_mat_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>F94BFFB2-011B-0ED4-1692-5FEFD895DA99</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6924DF6-276F-F35E-1005-91DA38178E03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CF51A8B-67FB-8402-B3DE-C43F47340411" name="Prodaje_Menadzer_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>20F2528D-845B-9338-68E4-8EF61586D661</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="275F998E-36C3-83A6-11D0-9FAEA41B45E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B591349A-D200-9B56-6688-901E60C0D8BE" containerWithKeyObject="94262E0A-46C1-E2E1-76B4-CDE03CB839EF" localFKIndex="064DB0A9-190C-408C-1D8E-98FAF13BEC44" name="Racunovodja_Zaposleni_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>F8A4FAB7-D346-DA4D-A3EA-5B712616B150</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<referredTableLongName>Zaposleni</referredTableLongName>
+<arc>938545D6-B91B-01EC-62C6-E8F197D65E43</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5CE8ADF7-1971-D969-7376-34F3C470EF84</referredTableID>
+<keyObject>14590F50-8B0D-5F80-DC92-A70225D06ADE</keyObject>
+<referredKeyID>14590F50-8B0D-5F80-DC92-A70225D06ADE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mbr_z</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>RACUNOVODJA</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

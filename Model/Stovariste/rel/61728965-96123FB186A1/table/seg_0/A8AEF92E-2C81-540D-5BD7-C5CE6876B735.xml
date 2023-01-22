@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8AEF92E-2C81-540D-5BD7-C5CE6876B735" name="Posluje">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<ordsAlias>relation_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dobavljac_pib_d" id="123DCE6E-D518-C3F0-5915-5DC58897563C">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D14E63E3-D5FA-7A44-B423-5382B136F70E" referredColumn="37699936-9E92-9C84-1AEA-54C00609DE20"/>
+</associations>
+</Column>
+<Column name="Dobavljac_mbr_d" id="37FB7EBD-895F-7B58-0320-38C724400152">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D14E63E3-D5FA-7A44-B423-5382B136F70E" referredColumn="65E69216-A900-4803-E62D-B013AAAC7D42"/>
+</associations>
+</Column>
+<Column name="Stovariste_pib_s" id="40360443-801F-3C95-FE04-0FC25AD3C787">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:50 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A2FC541-D806-E9CA-69A3-16786F6EB8DA" referredColumn="785EF21D-667F-D8A6-C4C4-B473614B5C70"/>
+</associations>
+</Column>
+<Column name="Stovariste_mbr_s" id="A7D4B427-C795-E502-713D-FFAB3A6B2FEA">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:50 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A2FC541-D806-E9CA-69A3-16786F6EB8DA" referredColumn="64FC2BDE-9C59-29A2-1882-5A7FF3629D14"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70CCF01F-E164-05BF-80DB-B4741EF2A77B" name="Relation_5_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="123DCE6E-D518-C3F0-5915-5DC58897563C"/>
+<colUsage columnID="37FB7EBD-895F-7B58-0320-38C724400152"/>
+<colUsage columnID="40360443-801F-3C95-FE04-0FC25AD3C787"/>
+<colUsage columnID="A7D4B427-C795-E502-713D-FFAB3A6B2FEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="027BC2E8-D453-2EF7-EB34-AFA02A30B4DC" name="Relation_5_Dobavljac_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>D0FBE734-8A24-A512-55F3-B8689D9C8718</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="123DCE6E-D518-C3F0-5915-5DC58897563C"/>
+<colUsage columnID="37FB7EBD-895F-7B58-0320-38C724400152"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1089E49E-48D7-6E4B-AA7D-93F08A6787E9" name="Relation_5_Stovariste_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>D0FBE734-8A24-A512-55F3-B8689D9C8718</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40360443-801F-3C95-FE04-0FC25AD3C787"/>
+<colUsage columnID="A7D4B427-C795-E502-713D-FFAB3A6B2FEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB9E6BA0-CE1A-7A2A-2F46-CC7D5CDE68EA" name="Izdaje">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 10:20:45 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pib_s" id="9C368FE0-FCA7-35D8-1A11-A73C497F1139">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:53:52 UTC</createdTime>
+<generatorID>441A45B0-44E4-9529-00CC-C35E9CD6F21C</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<referedAttribute>B932BBBB-8D55-1D64-338C-8D2EE79FE43B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mbr_s" id="01496A58-7FF1-51E5-9393-D96A9E4405BA">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:53:52 UTC</createdTime>
+<generatorID>441A45B0-44E4-9529-00CC-C35E9CD6F21C</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<referedAttribute>306456BE-3202-D28D-B782-9CCC97A69906</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fi" id="2488FF22-51AC-4FD4-DB1D-C0C708C1FD94">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:54:13 UTC</createdTime>
+<generatorID>3526C5B7-92F4-2432-5550-68EBD3C742BB</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<engineerTo>
+<item key="61728965-CBEA-C8DB-92D7-96123FB186A1" value="true"/>
+</engineerTo>
+<referedAttribute>8CA32B3E-C4A8-3379-33A9-C59426F86FE1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

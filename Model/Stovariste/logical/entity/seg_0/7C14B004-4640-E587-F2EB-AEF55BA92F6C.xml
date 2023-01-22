@@ -78,9 +78,9 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_p" id="99192CBF-AA83-D030-6C7C-67212CD8B2F8">
+<Attribute name="id_p" id="F7ECA406-87E2-32E0-213F-BC094B953BE0">
 <createdBy>petar</createdBy>
-<createdTime>2023-01-21 09:51:33 UTC</createdTime>
+<createdTime>2023-01-21 14:53:42 UTC</createdTime>
 <generatorID>C88CA2AD-6614-02BB-6E64-5DCED978F1DC</generatorID>
 <ownerDesignName>Stovariste</ownerDesignName>
 <engineerTo>
@@ -105,7 +105,6 @@
 <usedAttributes>
 <attributeRef>B932BBBB-8D55-1D64-338C-8D2EE79FE43B</attributeRef>
 <attributeRef>306456BE-3202-D28D-B782-9CCC97A69906</attributeRef>
-<attributeRef>99192CBF-AA83-D030-6C7C-67212CD8B2F8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

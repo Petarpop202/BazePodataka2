@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E3F15AE-0A71-AD4E-656F-5DB2B766D664" name="Poslovnica">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>49E37756-44EA-892F-28C4-469B1A5559FF</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_p" id="21C3A629-4A53-AFA8-42A9-B340574E53A3">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>572135DA-EBD4-ECB3-7525-BE25A4690B50</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa_id_adr" id="56E29856-D631-7E78-EB5B-B1A2CE6B6C71">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>C4FB07E6-E01E-4997-3CF5-CA12878AA0D7</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2ACDCE2-404A-860A-C919-F75470ADFC76" referredColumn="E3C5110F-5638-0410-4DCF-F77189AECCCC"/>
+</associations>
+</Column>
+<Column name="Zaposleni_mbr_z" id="A3B8D8B6-D006-AE1B-48A9-C5A8290CE831">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>E4844A87-16B3-F48B-71FD-5150527B34FF</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF66A6F1-FAD9-ADDC-0235-26245D3CAF04" referredColumn="10B947F9-93A9-258A-86C3-21D2A1160950"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E3D95A9-32AC-8368-9E84-127B54EFF9DD" name="Poslovnica_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>73D27F99-65AE-8FD1-6903-B7D6914AF2DD</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21C3A629-4A53-AFA8-42A9-B340574E53A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C709CFB7-55CE-53F5-ECF6-D1AB32B89159" name="Poslovnica__IDX">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:50 UTC</createdTime>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>70407532-02C4-AA13-B69E-C54A8DA80541</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="56E29856-D631-7E78-EB5B-B1A2CE6B6C71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B613BBCE-7A0D-CCC8-2F84-C54F286D2DEA" name="Poslovnica_Zaposleni_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>60F4068C-F296-8A54-0685-377909E569EC</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3B8D8B6-D006-AE1B-48A9-C5A8290CE831"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B93B8DA-156B-DE5D-0BEE-AD7EAA7D2161" name="Poslovnica_Adresa_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:50 UTC</createdTime>
+<generatorID>70407532-02C4-AA13-B69E-C54A8DA80541</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56E29856-D631-7E78-EB5B-B1A2CE6B6C71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

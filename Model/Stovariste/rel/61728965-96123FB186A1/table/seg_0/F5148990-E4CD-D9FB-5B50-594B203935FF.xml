@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5148990-E4CD-D9FB-5B50-594B203935FF" name="Pravno_lice">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>096F87B3-3C36-9E29-C48A-09AB937B9580</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_k" id="216C262F-5B0A-6B88-50C7-993078F9907D">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>6D1A111F-2582-9225-4731-FCC1DE79DF87</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4689DAEC-AA9E-33CE-06B0-43DE5898E1E0" referredColumn="B4EF1927-39E1-012B-A537-D390AAC6EB4B"/>
+</associations>
+</Column>
+<Column name="pib_pl" id="21B57FB6-F1ED-B10D-3A37-CC9FC2A9C438">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>ED88A090-A334-C1C9-38F6-C4E2A3F9D126</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mbr_pl" id="12537561-1364-6593-13FE-EFE47707CE90">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>2ED691CA-1050-F703-9176-B01DC54C3B8F</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naz_pl" id="1A2F58EC-2080-FAD1-CBD2-8625CA62B1B3">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>AA0F2171-6F74-E0E0-D2D6-7E5F1ACF9E90</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11FD88E8-8DAE-61D0-6BAF-1767F0C3CC5A" name="Pravno_lice_PK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>2DF1B8B3-113F-DD43-C62A-4BDD9B5929B5</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="216C262F-5B0A-6B88-50C7-993078F9907D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FCAE82E-F99E-26CA-4A9D-0DC9932568F5" name="Pravno_lice_PKv1">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>E0D21339-0810-8B34-6A94-2EBC9F3AED1B</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12537561-1364-6593-13FE-EFE47707CE90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AE1747E-87E0-2012-DF91-5B657FEC4116" name="Pravno_lice_Kupac_FK">
+<createdBy>petar</createdBy>
+<createdTime>2023-01-21 14:57:49 UTC</createdTime>
+<generatorID>F7D12526-6350-DCAF-C040-17A1372F03B5</generatorID>
+<ownerDesignName>Stovariste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="216C262F-5B0A-6B88-50C7-993078F9907D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
