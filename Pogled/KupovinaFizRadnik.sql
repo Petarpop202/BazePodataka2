@@ -1,3 +1,4 @@
+create or replace view ukupno_kupljenih_materijala(Materijal, Ukupna cena) as
 select m.naz_gm,sum(p.ukupnacena_p)
 from prodaje p, kupuje kup, kupac k, materijal m
 
